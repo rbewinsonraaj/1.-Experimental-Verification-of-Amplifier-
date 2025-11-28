@@ -48,18 +48,25 @@ The negative sign in gain indicates a **phase shift of 180°**.
 Acl = -RF/R1
 
 PIN DIAGRAM
-<img width="624" height="269" alt="image" src="https://github.com/user-attachments/assets/635c9837-d5f5-4d6f-acc9-8a47a4368230" />
+![WhatsApp Image 2025-11-28 at 14 02 24_bf758ecf](https://github.com/user-attachments/assets/8f1f91c1-576a-49d8-b749-c19871062708)
+
 
 CIRCUIT DIAGRAM: INVERTING AMPLIFIER:
-<img width="779" height="440" alt="image" src="https://github.com/user-attachments/assets/a14d8bc1-9dc7-4a49-98b0-f5320f450a63" />
+![WhatsApp Image 2025-11-28 at 13 56 57_f58d2513](https://github.com/user-attachments/assets/a34eda4d-c587-414e-acb4-b7da06bf22db)
+
+
+
 
 MODEL GRAPH 
-
-<img width="543" height="357" alt="image" src="https://github.com/user-attachments/assets/1836d120-768e-454f-bfe4-682ce70ea7a1" />
+![WhatsApp Image 2025-11-28 at 13 45 54_ffd7da14](https://github.com/user-attachments/assets/2ffd0ce4-46b6-4f66-99b2-0d99393c31a1)
 
 
 
 DESIGN:
+![WhatsApp Image 2025-11-28 at 13 55 27_d6fac75e](https://github.com/user-attachments/assets/27f55faf-165e-4d58-a887-a467113c28b4)
+
+
+
 
 Inverting amplifier:
 
@@ -81,17 +88,14 @@ Inverting amplifier:
 
 
 ## TABULATION
-
-| S.No | Vin (V) | Time (ms) | Vo = Vin[-(Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |			
+![WhatsApp Image 2025-11-28 at 14 06 09_33dd1ab2](https://github.com/user-attachments/assets/623442c5-5059-4b45-8bc2-c0bd7e916bb6)
+		
  
 
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
+![WhatsApp Image 2025-11-28 at 14 07 13_7507b08a](https://github.com/user-attachments/assets/0025b06c-0742-4388-ae9f-d8eeaf2c2cc7)
 
 
 ---
@@ -109,13 +113,18 @@ ACL = 1 + RF/R1
 ## CIRCUIT DIAGRAM
 
 
-<img width="704" height="397" alt="image" src="https://github.com/user-attachments/assets/1b4b170f-cf21-4fa9-9dc7-96db30b3c153" />
+![WhatsApp Image 2025-11-28 at 13 57 54_ffe3bfb1](https://github.com/user-attachments/assets/572043e5-02c1-494b-b337-04064007d8e5)
+
 
 ---
 
 ## MODEL GRAPH
 
-<img width="456" height="340" alt="image" src="https://github.com/user-attachments/assets/00c7aaec-b4d8-414e-afa3-e985eb3dd902" />
+![WhatsApp Image 2025-11-28 at 13 35 10_2b833788](https://github.com/user-attachments/assets/f788159e-db07-4de3-a7df-7d9c37202031)
+
+## DESIGN
+![WhatsApp Image 2025-11-28 at 13 55 42_39b5bfd1](https://github.com/user-attachments/assets/e2178394-e8ba-4731-9eba-81e0e5695687)
+
 
 ---
 PROCEDURE:
@@ -130,15 +139,13 @@ PROCEDURE:
 
 ## TABULATION
 
-| S.No | Vin (V) | Time (ms) | Vo = Vin[1 + (Rf / R1)] (V) | Theoretical | Practical |
-|------|----------|-----------|------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+![WhatsApp Image 2025-11-28 at 13 59 31_25947a1e](https://github.com/user-attachments/assets/72e08abc-9e25-4623-8a3a-f0bdc8aa511d)
+
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![WhatsApp Image 2025-11-28 at 14 10 02_1f59b500](https://github.com/user-attachments/assets/75310e05-38af-4174-9ff3-ba84391f2095)
 
 ---
 ## DIFFERENTIAL AMPLIFIER
@@ -150,14 +157,21 @@ If the two input signals are identical, the output is ideally **zero**.
 
 A = Vo/{V2 - V1} = -Rf/R1
 ## CIRCUIT DIAGRAM
-<img width="706" height="522" alt="image" src="https://github.com/user-attachments/assets/917f2544-3735-4a23-a9b7-1264966d0d20" />
+![WhatsApp Image 2025-11-28 at 13 48 27_f60e8066](https://github.com/user-attachments/assets/d103e729-dcd4-4451-ace7-74fd3ccb510f)
+
+
+
 
 ## MODEL GRAPH
-<img width="678" height="334" alt="image" src="https://github.com/user-attachments/assets/6aa1b9dd-b112-4be1-a37a-d5ee19607b1d" />
+![WhatsApp Image 2025-11-28 at 13 50 04_b479640c](https://github.com/user-attachments/assets/94be0243-b486-4561-a781-9cbb15cacbd3)
+
+
 
 ---
 
 ## DESIGN
+![WhatsApp Image 2025-11-28 at 13 55 55_de14490e](https://github.com/user-attachments/assets/d0d57308-138d-4e64-92bd-91b408c7c995)
+
 
 
 ### **Differential Amplifier**
@@ -186,15 +200,13 @@ Choose  R1 = 1kOhm, Rf = 10kOhm
 
 ## TABULATION (Differential Amplifier)
 
-| S.No | V1 (V) | V2 (V) | Vo = (-Rf/R1)(V1 - V2) (V) | Theoretical | Practical |
-|------|---------|---------|-----------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
+![WhatsApp Image 2025-11-28 at 13 59 45_5ea8349e](https://github.com/user-attachments/assets/4d59105c-52b6-4d1c-92dd-94d736553f9b)
+
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![WhatsApp Image 2025-11-28 at 14 12 53_44544c47](https://github.com/user-attachments/assets/c816cd5e-8a96-4712-9f34-1ce09a140d26)
 
 ---
 ## INSTRUMENTATION AMPLIFIER
@@ -209,7 +221,8 @@ Vo = RF/R1[1+ 2R’/R][V2-V1]
 
 ## CIRCUIT DIAGRAM: INSTRUMENTATION AMPLIFIER
 
-<img width="1006" height="1087" alt="image" src="https://github.com/user-attachments/assets/636c08f9-7940-470e-a89e-4891d57a9ac7" />
+![WhatsApp Image 2025-11-28 at 13 43 50_d1ca3d57](https://github.com/user-attachments/assets/3e761a4b-ddbe-416a-b9b5-05cb569b208d)
+
 
 PROCEDURE:
 
@@ -224,19 +237,18 @@ PROCEDURE:
 ---
 
 ## TABULATION (Instrumentation Amplifier)
+![WhatsApp Image 2025-11-28 at 14 13 55_3b561a04](https://github.com/user-attachments/assets/b95c14b8-8f22-464d-9c1b-0825689935b5)
 
-| S.No | V1 (V) | V2 (V) | Vo = (Rf / R1) [1 + (2R’ / R)] (V2 – V1) (V) | Theoretical | Practical |
-|------|---------|---------|----------------------------------------------|--------------|------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
 
 ---
 ## OUT PUT WAVEFORM AND DISCUSSION 
 
+![WhatsApp Image 2025-11-28 at 14 14 14_ef60efe7](https://github.com/user-attachments/assets/d1833619-f1cc-43ea-87eb-716765af5ea1)
 
 ---
 ## RESULT
-Thus, the **Inverting**, **Non-Inverting**, **Differential**, and **Instrumentation Amplifiers** were designed and their performance successfully tested using Op-Amp IC 741.
+![WhatsApp Image 2025-11-28 at 14 15 59_c979c369](https://github.com/user-attachments/assets/e1525110-84ba-4410-9522-51aa3bdb8529)
+![WhatsApp Image 2025-11-28 at 14 00 49_327d2536](https://github.com/user-attachments/assets/4bbeb711-d307-4c3a-88c7-c4b0008a085e)
+
 
 ---
