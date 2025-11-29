@@ -6,7 +6,6 @@
 To design and construct an Inverting, Non-Inverting, Differential and Instrumentation amplifiers.
 
 ---
-
 ## APPARATUS REQUIRED
 
 | S.No | Name of the Apparatus | Range | Quantity |
